@@ -1,0 +1,86 @@
+header {
+    background-color: rgb(68, 136, 12);
+    border: 2px solid rgb(35, 71, 5);
+}
+
+header>h3 {
+    font-size: 24pt;
+    font-weight: 2px;
+    font-family: cursive;
+    text-shadow: 4px 2px 1px rgb(35, 71, 5);
+    padding: 12px 2px;
+    color: rgb(255, 255, 255);
+}
+
+footer>h5 {
+    color: rgb(255, 255, 255);
+    font-size: 14pt;
+    font-family: cursive;
+    text-shadow: 2px 2px 1px rgb(35, 71, 5);
+    padding: 2px 0px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    background-color: rgb(68, 136, 12);
+    text-align: center;
+    border: 2px solid rgb(35, 71, 5);
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgba(68, 136, 12, 0.12) !important;
+}
+
+a {
+    font-size: 16pt;
+    font-family: cursive;
+    color: rgb(35, 71, 5) !important;
+}
+
+th,
+td {
+    border: rgb(35, 71, 5) 1px solid;
+    font-size: 16pt !important;
+    font-family: cursive !important;
+    color: rgb(35, 71, 5) !important;
+    background-color: rgba(68, 136, 12, 0.137);
+}
+
+th {
+    color: white !important;
+    background-color: rgb(35, 71, 5) !important;
+    border: rgb(68, 136, 12) 1px solid !important;
+    font-weight: 0.1px;
+}
+
+.submit {
+    background-color: rgb(68, 136, 12) !important;
+    border: 2px solid rgb(35, 71, 5) !important;
+}
+
+.submit:hover {
+    background-color: rgb(35, 71, 5) !important;
+    border: 2px solid rgb(68, 136, 12) !important;
+}
+
+.content {
+    margin-left: 10px;
+    overflow: hidden;
+    font-size: 16pt !important;
+    font-family: cursive !important;
+    color: rgb(68, 136, 12) !important;
+}
+
+.main_content>a {
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.scroll {
+    height: 70vh;
+    overflow: auto !important;
+}
