@@ -1,1 +1,1 @@
-<?php include_once('./public/art/index.php');?>
+<?php require('./public/art/index.php');?>
