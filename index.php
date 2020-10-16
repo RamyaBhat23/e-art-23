@@ -4,7 +4,7 @@
 <?php include(SHARED_PATH . '/art_header.php'); ?>
 
 <div class="content">
-    <a href="modification/index.php"> Visit Gallery </a>
+    <a href="public/art/modification/index.php"> Visit Gallery </a>
 </div>
 
 <?php include(SHARED_PATH . '/art_footer.php'); ?>
